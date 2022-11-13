@@ -1,0 +1,54 @@
+baseURL: "leyiwu.github.io"
+languageCode: en-us
+title: William Wu
+theme: PaperMod
+
+params:
+    DateFormat: "Last updated January 2, 2006"
+    profileMode:
+        enabled: true
+        title: William Wu #optional default will be site title
+        subtitle: "Computer Science @ UofT | Amazon Future Engineer Scholar " 
+        
+        buttons:
+            - name: About Me!
+              url: /about/
+            
+            
+    socialIcons:
+      - name: "LinkedIn"
+        url: "https://www.linkedin.com/in/william-wu-1b6615230/"
+      - name: "Instagram"
+        url: "https://www.instagram.com/will._.wu/"
+      - name: "Github"
+        url: "https://github.com/leyiwu"
+      - name: "Old Website"
+        url: "https://williamleyiwu.com/"
+
+
+    # socialIcons: # optional
+    #     - name: "<platform>"
+    #         url: "<link>"
+    #     - name: "<platform 2>"
+    #         url: "<link2>"
+#         imageUrl: "<image link>" # optional
+#         imageTitle: "<title of image as alt>" # optional
+#         imageWidth: 120 # custom size
+#         imageHeight: 120 # custom size
+
+
+#header
+menu:
+  main: 
+    - 
+      name: About Me
+      url: /about/
+      weight: 10
+    - identifier: tags
+      name: tags
+      url: /tags/
+      weight: 20
+    - identifier: example
+      name: Old Website
+      url: https://williamleyiwu.com
+      weight: 30
