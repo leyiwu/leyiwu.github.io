@@ -4,6 +4,8 @@ title: William Wu
 theme: PaperMod
 
 params:
+    assets:
+      favicon: "/wufavicon.png"
     DateFormat: "Last updated January 2, 2006"
     profileMode:
         enabled: true
