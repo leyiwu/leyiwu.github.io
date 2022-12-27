@@ -2,20 +2,40 @@ baseURL: "https://leyiwu.github.io/"
 languageCode: en-us
 title: William Wu
 theme: PaperMod
+defaultContentLanguage: en 
+defaultContentLanguageInSubdir: true
 
-params:
-    assets:
-      favicon: "/wufavicon.png"
-    DateFormat: "Last updated January 2, 2006"
-    profileMode:
-        enabled: true
-        title: William Wu #optional default will be site title
-        subtitle: "Computer Science @ UofT | Amazon Future Engineer Scholar " 
-        
-        buttons:
-            - name: About Me!
-              url: /about/
+languages:
+  en:
+    languageName: "English"
+    params:
+        assets:
+          favicon: "/wufavicon.png"
+        DateFormat: "Last updated January 2, 2006"
+        profileMode:
+            enabled: true
+            title: William Wu #optional default will be site title
+            subtitle: "Computer Science @ UofT | Amazon Future Engineer Scholar " 
             
+            buttons:
+                - name: About Me!
+                  url: /about/
+  cn:
+    languageName: "中文"
+    params:
+        assets:
+          favicon: "/wufavicon.png"
+        DateFormat: "Last updated January 2, 2006"
+        profileMode:
+            enabled: true
+            title: William 武 #optional default will be site title
+            subtitle: "大学牲 | 程序猿 | 攻城狮" 
+            
+            buttons:
+                - name: 关于我
+                  url: /about/
+  
+                  
             
     socialIcons:
       - name: "LinkedIn"
