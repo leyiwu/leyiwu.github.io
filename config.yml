@@ -60,17 +60,17 @@ params:
 
 
 #header
-  menu:
-    main: 
-      - 
-        name: About Me
-        url: /about/
-        weight: 10
-      - identifier: tags
-        name: tags
-        url: /tags/
-        weight: 20
-      - identifier: example
-        name: Old Website
-        url: https://williamleyiwu.com
-        weight: 30
+menu:
+  main: 
+    - 
+      name: About Me
+      url: /about/
+      weight: 10
+    - identifier: tags
+      name: tags
+      url: /tags/
+      weight: 20
+    - identifier: example
+      name: Old Website
+      url: https://williamleyiwu.com
+      weight: 30
