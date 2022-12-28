@@ -30,7 +30,7 @@ languages:
               tags: CNtags
             buttons:
                 - name: 关于我
-                  url: cn/about/
+                  url: /about/
   
 
 params:
