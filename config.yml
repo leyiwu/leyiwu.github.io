@@ -7,45 +7,45 @@ defaultContentLanguageInSubdir: true
 
 languages:
   en:
+    # contentDir: 
     languageName: "English"
     params:
-        assets:
-          favicon: "/wufavicon.png"
-        DateFormat: "Last updated January 2, 2006"
         profileMode:
             enabled: true
             title: William Wu #optional default will be site title
             subtitle: "Computer Science @ UofT | Amazon Future Engineer Scholar " 
-            
+            taxonomies:
+              tags: tags
             buttons:
                 - name: About Me!
-                  url: /about/
+                  url: /en/about/
   cn:
     languageName: "中文"
     params:
-        assets:
-          favicon: "/wufavicon.png"
-        DateFormat: "Last updated January 2, 2006"
         profileMode:
             enabled: true
             title: William 武 #optional default will be site title
             subtitle: "大学牲 | 程序猿 | 攻城狮" 
-            
+            axonomies:
+              tags: CNtags
             buttons:
                 - name: 关于我
-                  url: /about/
+                  url: cn/about/
   
-                  
-            
-    socialIcons:
-      - name: "LinkedIn"
-        url: "https://www.linkedin.com/in/william-wu-1b6615230/"
-      - name: "Instagram"
-        url: "https://www.instagram.com/will._.wu/"
-      - name: "Github"
-        url: "https://github.com/leyiwu"
-      - name: "Old Website"
-        url: "https://williamleyiwu.com/"
+
+params:
+  assets:
+      favicon: "/wufavicon.png"
+      DateFormat: "Last updated January 2, 2006"       
+  socialIcons:
+    - name: "LinkedIn"
+      url: "https://www.linkedin.com/in/william-wu-1b6615230/"
+    - name: "Instagram"
+      url: "https://www.instagram.com/will._.wu/"
+    - name: "Github"
+      url: "https://github.com/leyiwu"
+    - name: "Old Website"
+      url: "https://williamleyiwu.com/"
 
 
     # socialIcons: # optional
@@ -60,17 +60,17 @@ languages:
 
 
 #header
-menu:
-  main: 
-    - 
-      name: About Me
-      url: /about/
-      weight: 10
-    - identifier: tags
-      name: tags
-      url: /tags/
-      weight: 20
-    - identifier: example
-      name: Old Website
-      url: https://williamleyiwu.com
-      weight: 30
+  menu:
+    main: 
+      - 
+        name: About Me
+        url: /about/
+        weight: 10
+      - identifier: tags
+        name: tags
+        url: /tags/
+        weight: 20
+      - identifier: example
+        name: Old Website
+        url: https://williamleyiwu.com
+        weight: 30
