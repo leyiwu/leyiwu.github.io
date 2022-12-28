@@ -18,7 +18,7 @@ languages:
               tags: tags
             buttons:
                 - name: About Me!
-                  url: /en/about/
+                  url: /about/
   cn:
     languageName: "中文"
     params:
