@@ -18,7 +18,7 @@ Yes and outside of that, I'm into music, basketball, paddling and gaming.
 
 I'm planning to build a PC during the summer of 2023, looking forward to that a lot!
 
-You'll usually see me in the gym, and hopefully touching some grass ocassasionally 💀
+You'll hopefully see me in the gym and touching some grass ocassasionally 💀
 
 #
 I would love to start talking and meet new people, don't hesisitate to reach out to start a conversation!
